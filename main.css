@@ -1,0 +1,187 @@
+/* CSS reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+/* Pozicionálás */
+
+.blockone {
+  width: 37.5rem;
+  max-width: calc(100vw - 10px);
+  margin-left: 0.625rem;
+  
+}
+img {
+  width: 9.375rem;
+  height: 10rem;
+  border-radius: 0.625rem;
+  padding: 0.0625rem;
+  background-color: #666;
+  transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  float: left;
+  margin-left: 0.625rem;
+}
+img:hover {
+  transform: scale(1.1);
+  filter: grayscale(20%);
+
+}
+h1 {
+  text-align: center;
+  color: white;
+  font-size: 2.5rem;
+  
+}
+.head, .adatok, {
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0.625rem;
+  margin-bottom: 5%;
+  font-size: 1.25rem;
+  
+}
+/* Contact links */
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  background-image: url("assets/nonohatter.jpg"); /* The image used */
+  background-color: #0a0a0a; /* Used if the image is unavailable */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: 250%;  /* Resize the background image to cover the entire container */
+
+}
+.blockone {
+  background-color: hsla(0, 0%, 100%, .5);
+  border-radius: 7px;
+  box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
+  text-align: center;
+  margin-top: 3.125rem;
+  
+}
+.kedvenc, .peldakep, .idezet, .statistic {
+  background-color: hsla(0, 0%, 100%, .5);
+  border-radius: 50px;
+  box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
+  width: 30rem;
+   
+}
+.kedvenc {
+  float: left;
+  font-size: 1.875rem;
+  margin-top: 0.625rem;
+  text-align: center;
+  margin-right: 0.625rem;
+  
+}
+.peldakep {
+  float: left;
+  font-size: 1.875rem;
+  margin-top: 1.25rem;
+  text-align: center;
+  margin-right: 12.5rem;
+  
+}
+.idezet {
+  float: left;
+  font-size: 1.875rem;
+  margin-top: 1.25rem;
+  text-align: center;
+  margin-right: 2.25rem;
+  
+  
+}
+.statistic {
+  float: left;
+  font-size: 1.875rem;
+  margin-top: 1.25rem;
+  text-align: center;
+  margin-right: 1.25rem;
+  
+}
+@media (min-width: 1025px) {
+  body {
+  width: 100%;
+  height: 100vh;
+  background-image: url("assets/nonohatter.jpg"); /* The image used */
+  background-color: #0a0a0a; /* Used if the image is unavailable */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: 70%;  /* Resize the background image to cover the entire container */
+
+}
+
+.blockone {
+  background-color: hsla(0, 0%, 100%, .5);
+  border-radius: 20px;
+  box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
+  text-align: center;
+  margin-top: 3.125rem;
+  font-size: 1.875rem;
+  width: 30rem;
+ 
+  
+}
+.kedvenc, .peldakep, .idezet, .statistic {
+  background-color: hsla(0, 0%, 100%, .5);
+  border-radius: 50px;
+  box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
+  width: 30rem;
+   
+}
+.kedvenc {
+  float: right;
+  font-size: 1.875rem;
+  margin-top: -190px;
+  text-align: center;
+  margin-right: 0.625rem;
+  
+}
+.peldakep {
+  float: left;
+  font-size: 1.875rem;
+  margin-top: 5rem;
+  text-align: center;
+  margin-right: 12.5rem;
+  font-family: 'Bernard MT Condensed';
+  
+  
+}
+.idezet {
+  float: right;
+  font-size: 1.375rem;
+  margin-top: 6.375rem;
+  text-align: center;
+  margin-right: 0,625rem;
+  font-family: 'Comic Sans MS';
+  border-radius: 1.625rem;
+  width: 35rem;
+}
+.statistic {
+  float: left;
+  font-size: 1.875rem;
+  margin-top: 8.25rem;
+  text-align: center;
+  margin-right: 13.75rem;
+  
+}
+
+.statistic:hover {
+  background-color: bisque;
+}
